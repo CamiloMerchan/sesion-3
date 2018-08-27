@@ -1,0 +1,89 @@
+body{
+	background-color:#2AD3B7;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	border: 1px solid white;
+	background-color: gray;
+	text-align: center;
+}
+li{
+	/*cada item se debe vizualizar en linea uno al lado del otro pero debe permitir que puedan*/
+	display: inline-block;
+	padding: 10px 20px;
+}
+a{
+	text-decoration: none;
+	color:black;
+	font-family: 'Pacifico', cursive;
+	/*quitar el subrayado*/
+	text-decoration: none;
+	font-size: 16px;
+	/*convertir en bloque*/
+	display: block;
+	padding: 6px
+	border:1px solid #ccc;
+	background-color: white;
+}
+a:hover{
+	background:#F0E4A6;
+	border-bottom-width: 5px;
+	border-bottom: purple 5px solid;
+}
+.facebook{ 
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+.Noticias{
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+.Galeria{
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+.Publicaciones{
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+.Videos{
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+.Contactenos{
+	font-size: 21px;
+	color: blue;
+	padding: 10px 20px;
+
+}
+
+
+
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-newspaper:before {
+  content: "\e904";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-box-remove:before {
+  content: "\e95f";
+}
+.icon-video-camera:before {
+  content: "\e914";
+}

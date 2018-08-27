@@ -1,0 +1,34 @@
+body{
+	background-color: #81FCB3;
+}
+/*Estilo lista*/
+ul>li{
+/*permite quitar las viñetas*/
+	list-style: none;
+	/*quitar margenes*/
+	margin: 0px;
+	padding:0px;
+	border: 1px solid #ccc;
+	width: 130px;
+	/*especificamos borde primero el ancho del borde, segundo el estilo y tercero el color*/
+}
+
+/*estilo enlace*/
+a{
+	font-family: 'Pacifico', cursive;
+	/*quitar el subrayado*/
+	text-decoration: none;
+	font-size: 16px;
+	/*convertir en bloque*/
+	display: block;
+	padding: 6px
+	border:1px solid #ccc;
+	background-color: yellow;
+}
+a:hover{
+	color: black;
+	background:green;
+    border-right-width: 10px;
+	border-right: red 10px solid;
+	/*ancho de la lista*/
+}
